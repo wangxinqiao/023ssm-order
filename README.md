@@ -3,7 +3,9 @@
 
 ## 项目介绍
 ````
-该超市订单管理毕业设计基于jdk8版本开发，在部署时需要使用jdk8以上的版本。使用了目前流行的框架组合spring+springMVC+mybatis的框架技术， 实现了供应商管理对供应商实现增删改查、订单管理对超市订单实现增删改查、用户管理等功能，适用于小型超市的使用，通过学习该超市订单管理 的毕业设计，对于SSM框架的组合能够有更深层次的理解。
+该超市订单管理毕业设计基于jdk8版本开发，在部署时需要使用jdk8以上的版本。
+使用了目前流行的框架组合spring+springMVC+mybatis的框架技术，实现了供应商管理对供应商实现增删改查、订单管理对超市订单实现增删改查、用户管理等功能，
+适用于小型超市的使用，通过学习该超市订单管理的毕业设计，对于SSM框架的组合能够有更深层次的理解。
 ````
 源码获取： [**点此获取** ](http://www.shuyue.fun/index.php?type=productinfo&id=125)
 
@@ -27,7 +29,8 @@
 ````
 1. 使用Navicat或者其它工具，在mysql中创建对应名称的数据库，并导入项目的sql文件；
 2. 将项目中applicationContext.xml配置文件中的数据库配置改为自己的配置;
-3. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;若为maven项目，导入成功后请执行maven clean;maven install命令，配置tomcat，然后运行；
+3. 使用IDEA/Eclipse/MyEclipse导入项目，Eclipse/MyEclipse导入时，若为maven项目请选择maven;
+若为maven项目，导入成功后请执行maven clean;maven install命令，配置tomcat，然后运行；
 4. 运行成功后，访问http://localhost:8080/supermarket/login.htm到登录页面
 ````
 ## 运行截图
